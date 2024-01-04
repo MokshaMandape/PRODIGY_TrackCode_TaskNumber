@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /*max-width: 80vw;*/
+    font-family: 'Mukta', sans-serif;
+}
+
+.header{
+    background: hsl(200, 100%, 50%);
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    position: relative;
+}
+
+.navbar li:hover{
+    color: rgb(230, 97, 97);
+  }
+
+.topleft{
+    width: 70%;
+    height: 50vh;
+    margin-left: 20px;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+    margin-left: 300px;
+}
+.section1{
+    height: 50vh;
+    font-family: 'Mukta', sans-serif;
+}
+
+.section2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.section2 p{
+    padding: 0 4vw;
+    text-align: center;
+}
+
+.section2 b{
+     font-size: larger;
+}
+
+.section3 b{
+    font-size: larger;
+}
+
+.boxes{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px ;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box li{
+    margin: 12px 2px;
+}
+
+.box h3{
+    font-size: large;
+    font-weight: 50rem;
+}
+
+.box1{
+    padding: 8px 0;
+    margin: 12px 22px ;
+    min-width: 20vw; 
+}
+
+.box2{
+    padding: 8px 0;
+    margin: 12px 22px ;
+    min-width: 20px;   
+}
+.topleft1{
+    width: 70%;
+    height: 50vh;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.topright1{
+    width: 70%;
+    height: 65vh;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.section3 h3{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer{
+    box-sizing: border-box;
+    background-color: #24262b;
+    padding: 70px 0px;
+}
+
