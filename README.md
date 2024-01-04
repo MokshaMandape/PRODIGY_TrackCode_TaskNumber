@@ -1,3 +1,3 @@
 Power Fitness
 
-It is a Landing Page of a Gym Website.
+It is a Landing Page for a Gym Website.
